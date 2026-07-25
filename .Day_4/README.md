@@ -56,20 +56,4 @@ All charts are built with Matplotlib and Seaborn. Six chart types are used acros
 - **Explicit content and higher energy/danceability show mild positive association with popularity**, but neither is a strong standalone predictor.
 - **Practical takeaway:** a model built purely on Spotify's audio features is unlikely to predict popularity well — genre, artist recognition, and platform/marketing factors likely matter more, and should be incorporated in any predictive follow-up work.
 
-## Repository Structure
 
-```
-.
-├── visualization.ipynb   # Complete EDA, visualizations, and analysis (executed, with outputs)
-├── data/
-│   └── dataset.csv       # Spotify Tracks Dataset
-├── images/               # Exported chart images (used in this README)
-└── README.md
-```
-
-## Running It Yourself
-
-```bash
-pip install pandas numpy matplotlib seaborn jupyter
-jupyter notebook visualization.ipynb
-```

@@ -1,4 +1,4 @@
-**Name:** Akhila Sunesh
+**Name:** Akhila Sunesh <br>
 **MUID:** akhilasunesh@mulearn
 
 # Mall Customer Segmentation

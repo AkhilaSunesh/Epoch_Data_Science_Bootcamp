@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load model
-with open('churn_model.pkl', 'rb') as f:
+with open('.Day_9/churn_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 st.set_page_config(page_title="Churn Risk Analyzer", layout="wide")
